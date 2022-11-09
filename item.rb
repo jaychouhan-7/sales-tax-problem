@@ -8,6 +8,8 @@ class Item < ApplicationModel
   def initialize(order_id,item)
 
     @orders = []
+
+    
     @order_id = order_id
 
     @sales_tax = 0
@@ -20,3 +22,5 @@ class Item < ApplicationModel
   end
 
 end
+
+
